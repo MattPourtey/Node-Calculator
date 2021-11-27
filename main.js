@@ -12,13 +12,20 @@
 var readlineSync = require('readline-sync');
 
 //- A function that adds two numbers and returns the result
-
-console.log(5 + 2)
-
+function sum(num1, num2){
+    return num1 + num2
+}
 //- A function that multiplies two numbers and returns the result
-
-console.log(5 * 5)
-
+function product(num1, num2){
+    return num1 * num2
+}
 //- A function that divides two numbers and returns the result
+function divide(num1, num2){
+    return num1 / num2
+}
 
-console.log(12 / 2);
+//- A function that subtracts two numbers and returns the result
+function minus(num1, num2){
+    return num1 - num2
+}
+
